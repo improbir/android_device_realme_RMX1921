@@ -182,6 +182,7 @@ ro.netflix.bsp_rev=Q670-14477-1
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
+ro.vendor.perf.scroll_opt=true
 
 # Radio
 persist.vendor.radio.enableadvancedscan=false
