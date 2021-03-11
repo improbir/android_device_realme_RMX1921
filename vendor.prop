@@ -163,6 +163,9 @@ debug.sf.enable_transaction_tracing=false
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 
+# GFX
+ro.config.avoid_gfx_accel=true
+
 # IMS
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
