@@ -332,6 +332,10 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 PRODUCT_PACKAGES += \
     libqti-perfd-client
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.bluetooth.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth.xml \
@@ -448,10 +452,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/privapp_whitelist_org.device.Realmeparts.xml:system/etc/permissions/privapp_whitelist_org.device.Realmeparts.xml
-
-# Remove Unwanted Packages
-PRODUCT_PACKAGES += \
-    RemovePackages
 
 # Seccomp policy
 PRODUCT_COPY_FILES += \
