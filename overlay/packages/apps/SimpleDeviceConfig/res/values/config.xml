@@ -12,6 +12,7 @@
 -->
 
 <resources>
+<<<<<<< HEAD
     <string-array name="configs_device">
         <!-- Globally enable the new photo picker -->
 	<item>storage_native_boot/take_over_get_content=true</item>
@@ -24,5 +25,10 @@
 
 	<!-- Disable always screen on -->
 	<item>attention_manager_service/keep_screen_on_enabled=false</item>
+    </string-array>
+
+    <string-array name="configs_base">
+        <!-- ART heap compaction for cached apps -->
+        <item>activity_manager/use_compaction=true</item>
     </string-array>
 </resources>
