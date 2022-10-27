@@ -180,6 +180,10 @@ PRODUCT_PACKAGES += \
     libqcomfm_jni \
     qcom.fmradio
 
+# Enable whole-program R8 Java optimizations for SystemUI and system_server
+    SYSTEM_OPTIMIZE_JAVA := true
+    SYSTEMUI_OPTIMIZE_JAVA := true
+
 # IPA
 PRODUCT_PACKAGES += \
     ipacm \
