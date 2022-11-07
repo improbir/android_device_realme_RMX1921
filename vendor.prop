@@ -225,3 +225,11 @@ zygote.critical_window.minute=10
 
 # Cached app compaction
 persist.device_config.activity_manager.use_compaction=true
+
+# Supressing logs
+persist.log.tag.BoundBrokerSvc=S
+persist.log.tag.GoogleInputMethodService=S
+persist.log.tag.QC-time-services=S
+persist.log.tag.Tethering=S
+persist.log.tag.WindowManager=S
+persist.log.tag.ziparchive=S
