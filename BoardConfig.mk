@@ -84,6 +84,7 @@ BOARD_HAVE_QCOM_FM := true
 
 # FOD
 TARGET_SURFACEFLINGER_UDFPS_LIB := //$(DEVICE_PATH):libudfps_extension.xt
+TARGET_USES_FOD_ZPOS := true
 
 # Graphics
 TARGET_USES_GRALLOC1 := true
