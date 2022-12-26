@@ -629,6 +629,7 @@ vendor/bin/ppd
 vendor/etc/init/vendor.display.color@1.0-service.rc
 vendor/lib/libdisp-aba.so
 vendor/lib/libdisplayqos.so
+vendor/lib/libtinyxml.so
 vendor/lib/vendor.display.color@1.0.so
 vendor/lib/vendor.display.color@1.1.so
 vendor/lib/vendor.display.color@1.2.so
@@ -638,6 +639,7 @@ vendor/lib/vendor.display.color@1.5.so
 vendor/lib/vendor.display.postproc@1.0.so
 vendor/lib64/libdisp-aba.so
 vendor/lib64/libdisplayqos.so
+vendor/lib64/libtinyxml.so
 vendor/lib64/vendor.display.color@1.0.so
 vendor/lib64/vendor.display.color@1.1.so
 vendor/lib64/vendor.display.color@1.2.so
