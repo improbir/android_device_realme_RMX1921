@@ -310,11 +310,11 @@
     <ctl name="EAR PA Gain" value="POS_1P5_DB" />
     <ctl name="EAR PA Boost" value="DISABLE" />
 
-    <ctl name="RX1 Digital Volume" value="84" />
-    <ctl name="RX2 Digital Volume" value="84" />
-    <ctl name="RX3 Digital Volume" value="84" />
-    <ctl name="RX4 Digital Volume" value="84" />
-    <ctl name="RX5 Digital Volume" value="84" />
+    <ctl name="RX1 Digital Volume" value="88" />
+    <ctl name="RX2 Digital Volume" value="88" />
+    <ctl name="RX3 Digital Volume" value="88" />
+    <ctl name="RX4 Digital Volume" value="88" />
+    <ctl name="RX5 Digital Volume" value="88" />
     <!--
     #ifndef VENDOR_EDIT
     //Jianfeng.Qiu@PSW.MM.AudioDriver.HAL, 2016/02/27, Modify for avoid initial value not correct
@@ -327,10 +327,10 @@
     <ctl name="ADC2 Volume" value="5" />
     <ctl name="ADC3 Volume" value="5" />
     <!--#endif /* VENDOR_EDIT */ -->
-    <ctl name="DEC1 Volume" value="84" />
-    <ctl name="DEC2 Volume" value="84" />
-    <ctl name="DEC3 Volume" value="84" />
-    <ctl name="DEC4 Volume" value="84" />
+    <ctl name="DEC1 Volume" value="88" />
+    <ctl name="DEC2 Volume" value="88" />
+    <ctl name="DEC3 Volume" value="88" />
+    <ctl name="DEC4 Volume" value="88" />
 
     <!-- Compander controls -->
     <ctl name="COMP1 Switch" value="1" />
