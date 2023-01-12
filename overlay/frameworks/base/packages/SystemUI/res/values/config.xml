@@ -74,4 +74,6 @@
          low powered state yet. -->
     <bool name="doze_long_press_uses_prox">false</bool>
 
+    <!-- Allow devices override audio panel location to the left side -->
+    <bool name="config_audioPanelOnLeftSide">true</bool>
 </resources>
