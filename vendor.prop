@@ -157,6 +157,8 @@ debug.hwui.renderer=opengl
 debug.sf.disable_client_composition_cache=1
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
 
 # IMS
 persist.dbg.volte_avail_ovr=1
