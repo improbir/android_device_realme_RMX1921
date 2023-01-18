@@ -159,6 +159,7 @@ ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
+ro.config.avoid_gfx_accel=true
 
 # IMS
 persist.dbg.volte_avail_ovr=1
