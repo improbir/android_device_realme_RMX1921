@@ -155,6 +155,7 @@ debug.sf.auto_latch_unsignaled=true
 ro.opengles.version=196610
 debug.hwui.renderer=opengl
 debug.sf.disable_client_composition_cache=1
+debug.mdpcomp.logs=0
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 debug.hwui.use_hint_manager=true
