@@ -126,6 +126,7 @@ debug.stagefright.omx_default_rank=0
 vendor.display.enable_default_color_mode=1
 ro.vendor.display.cabl=2
 ro.sf.lcd_density=420
+debug.sf.enable_egl_image_tracker=1
 
 # DPM
 persist.vendor.dpmhalservice.enable=1
