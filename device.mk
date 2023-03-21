@@ -153,7 +153,8 @@ PRODUCT_PACKAGES += \
 
 # Dexpreopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUI
+    SettingsGoogle \
+    SystemUIGoogle
 
 # DRM
 PRODUCT_PACKAGES += \
