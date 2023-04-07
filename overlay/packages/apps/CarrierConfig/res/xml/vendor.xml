@@ -99,7 +99,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
 
         <!-- Enable SS over UT by default-->
         <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
-
         <!-- Config to allow hold in video calls -->
         <boolean name="allow_hold_video_call_bool" value="true"/>
         <!-- Config to allow accept one way for video calls -->
@@ -116,8 +115,8 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="carrier_cross_sim_ims_available_bool" value="true" />
         <!-- Config for B2C Enriched Calls Feature support -->
         <boolean name="carrier_b2c_enriched_calling_supported_bool" value="false"/>
+        <int name="lte_plus_threshold_bandwidth_khz_int" value="0" />
     </carrier_config>
-
     <carrier_config mcc="001" mnc="01">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
