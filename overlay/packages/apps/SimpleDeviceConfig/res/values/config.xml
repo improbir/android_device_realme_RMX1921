@@ -21,5 +21,8 @@
 	<item>privacy/safety_center_is_enabled=true</item>
 	<!-- Enable use of coarse/fine location -->
 	<item>privacy/location_accuracy_enabled=true</item>
+
+	<!-- Disable always screen on -->
+	<item>attention_manager_service/keep_screen_on_enabled=false</item>
     </string-array>
 </resources>
