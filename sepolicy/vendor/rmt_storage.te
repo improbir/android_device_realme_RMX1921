@@ -6,4 +6,5 @@ dontaudit rmt_storage default_prop:file { read open getattr };
 allow rmt_storage self:capability sys_admin;
 allow rmt_storage proc:file { read open };
 
-allow rmt_storage sysfs_socinfo_sensitive:file { open read };
+allow rmt_storage sysfs_socinfo_sensitive:file r_file_perms;
+
