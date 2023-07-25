@@ -1,9 +1,6 @@
 # Blur
 persist.sys.sf.disable_blurs=1
 
-# Brightness Curve
-persist.sys.brightness.low.gamma=true
-
 # Camera
 ro.camera.hfr.enable=0
 persist.camera.HAL3.enabled=1
