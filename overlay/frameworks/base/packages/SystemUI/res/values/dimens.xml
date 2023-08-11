@@ -16,12 +16,6 @@
 */
 --> 
 <resources>
-
-    <!-- the padding on the start and the end of the statusbar -->
-    <dimen name="status_bar_extra_padding">13dp</dimen>
-
-    <dimen name="rounded_corner_content_padding">50.0px</dimen>
-
     <!-- the padding on the start of the statusbar -->
     <dimen name="status_bar_padding_start">4dp</dimen>
 
