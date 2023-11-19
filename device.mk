@@ -259,6 +259,7 @@ PRODUCT_PACKAGES += \
     libavservices_minijail.vendor \
     libavservices_minijail_vendor \
     libc2dcolorconvert \
+    libmm-omxcore \
     libOmxAacEnc \
     libOmxAmrEnc \
     libOmxCore \
