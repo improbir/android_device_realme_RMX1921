@@ -12,6 +12,9 @@ camera.disable_zsl_mode=true
 # Charger
 ro.charger.enable_suspend=true
 
+# Cached app compaction
+persist.device_config.activity_manager.use_compaction=true
+
 # Data modules
 persist.data.df.dev_name=rmnet_usb0 
 persist.vendor.data.mode=concurrent 
@@ -57,6 +60,9 @@ ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
 
 # FM
 vendor.hw.fm.init=0
+
+# GFX
+ro.config.avoid_gfx_accel=true
 
 # Gboard
 ro.com.google.ime.kb_pad_port_b=1
@@ -146,6 +152,7 @@ persist.data.iwlan=1
 persist.data.iwlan.ipsec.ap=1 
 persist.sys.cust.lte_config=true 
 service.qti.ims.enabled=1 
+persist.dbg.ims_volte_enable=1
 persist.vendor.qti.telephony.vt_cam_interface=2
 ril.subscription.types=NV,RUIM
 ro.telephony.default_network=33,33

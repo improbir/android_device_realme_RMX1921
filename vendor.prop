@@ -152,14 +152,10 @@ debug.sf.treat_170m_as_sRGB=1
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 
-# GFX
-ro.config.avoid_gfx_accel=true
-
 # IMS
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
-persist.dbg.ims_volte_enable=1
 persist.vendor.radio.data_ltd_sys_ind=1
 persist.vendor.radio.data_con_rprt=1
 persist.vendor.radio.add_power_save=1
@@ -222,6 +218,3 @@ vendor.usb.use_gadget_hal=0
 
 # Zygote
 zygote.critical_window.minute=10
-
-# Cached app compaction
-persist.device_config.activity_manager.use_compaction=true
