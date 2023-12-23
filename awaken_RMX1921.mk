@@ -4,13 +4,13 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common PE stuff
+# Inherit some common Awaken stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
 WITH_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_FACE_UNLOCK_SUPPORTED := true
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/awaken/config/common_full_phone.mk)
 
 # Inherit from RMX1921 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -18,7 +18,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := realme
 PRODUCT_DEVICE := RMX1921
 PRODUCT_MANUFACTURER := realme
-PRODUCT_NAME := aosp_RMX1921
+PRODUCT_NAME := awaken_RMX1921
 PRODUCT_MODEL := RMX1921
 
 PRODUCT_SYSTEM_NAME := RMX1921
