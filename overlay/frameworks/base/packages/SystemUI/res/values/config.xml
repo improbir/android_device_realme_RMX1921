@@ -71,10 +71,8 @@
          low powered state yet. -->
     <bool name="doze_long_press_uses_prox">false</bool>
 
-    <!-- The position of the volume dialog on the screen.
-         See com.android.systemui.volume.VolumeDialogImpl.
-         Value 21 corresponds to RIGHT|CENTER_VERTICAL. -->
-    <integer name="volume_dialog_gravity">19</integer>
+    <!-- Allow devices override audio panel location to the left side -->
+    <bool name="config_audioPanelOnLeftSide">true</bool>
 
     <!-- Update battery info every second when device is charging -->
     <bool name="config_alternateFastchargeInfoUpdate">true</bool>
