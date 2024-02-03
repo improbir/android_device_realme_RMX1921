@@ -54,7 +54,6 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libvolumelistener \
-    libaudioparsers \
     libcirrusspkrprot \
     libspkrprot \
     libhdmiedid \
@@ -63,7 +62,6 @@ PRODUCT_PACKAGES += \
     libhfp \
     libbatterylistener \
     libsndmonitor \
-    libhdmipassthru \
     tinymix
 
 PRODUCT_COPY_FILES += \
@@ -256,7 +254,6 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
-    android.hardware.media.omx@1.0-impl \
     android.hardware.media.omx@1.0-service \
     libminijail \
     libavservices_minijail \
@@ -316,9 +313,6 @@ PRODUCT_PACKAGES += \
     SecureElement \
     NfcNci \
     libchrome.vendor \
-    vendor.nxp.nxpese \
-    nqnfcee_access.xml \
-    nqnfcse_access.xml \
     Tag \
     nfc_nci_nxp
 
