@@ -902,6 +902,12 @@ vendor/lib64/hw/vulkan.adreno.so|fcc99045aaf7eed0925ac2b64ff2af085212954a
 vendor/bin/hw/android.hardware.health@2.1-service
 vendor/etc/init/android.hardware.health@2.1-service.rc
 
+# Hotword Enrollment from qssi-user-14-UP1A.231005.007-2311021201-release-keys
+product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
+product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
+system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
+system_ext/framework/com.android.hotwordenrollment.common.util.jar
+
 # IMS (system) - from LA.QSSI.14.0.r1-11100-qssi.0
 system_ext/app/ImsRcsService/ImsRcsService.apk|57e4275cf15544a350617605d4a556534ada041c
 system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml|4bde619dc1436503a0a4555a7a11b8eabcfb449d
