@@ -73,10 +73,10 @@ void load_dalvikvm_properties() {
   void device_check() {
     // Check Varient
     std::ifstream infile("/proc/oppoVersion/operatorName");
-    std::string check;
+    int check;
+    infile >> check;
 
-    getline(infile, check);
-    if (!check.compare("34") || !check.compare("11")) {
+    if (check == 34 || check == 11) {
 	property_override("ro.boot.product.hardware.sku", "RMX1921EU");
         property_override("ro.hardware.nfc_nci", "nqx.default");
         property_override("ro.nfc.port", "I2C");
